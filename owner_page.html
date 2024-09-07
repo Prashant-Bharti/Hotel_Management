@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owner Page</title>
+</head>
+<body>
+    <h2>Booking Details</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Room ID</th>
+                <th>Username</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Origin Address</th>
+                <th>Room Type</th>
+                <th>Price Paid</th>
+                <th>Entry Time</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Booking details will be populated dynamically here -->
+
+            <!-- its me Prashant Bharti -->
+
+            <tr>
+                <td>Room1</td>
+                <td>John Doe</td>
+                <td>30</td>
+                <td>Male</td>
+                <td>123 Main St, City, Country</td>
+                <td>Medium</td>
+                <td>$150</td>
+                <td>2024-04-01 10:00:00</td>
+                <td>
+                    <button onclick="editBooking()">Edit</button>
+                    <button onclick="deleteBooking()">Delete</button>
+                </td>
+            </tr>
+            <!-- Additional booking details rows will be added here dynamically -->
+        </tbody>
+    </table>
+
+    <h2>Room Prices</h2>
+    <div>
+        <h3>Room Type</h3>
+        <p>Small Room - Price: $100</p>
+        <button onclick="changePrice('small')">Change Price</button>
+
+        <h3>Room Type</h3>
+        <p>Medium Room - Price: $150</p>
+        <button onclick="changePrice('medium')">Change Price</button>
+
+        <h3>Room Type</h3>
+        <p>Large Room - Price: $200</p>
+        <button onclick="changePrice('large')">Change Price</button>
+    </div>
+
+    <!-- JavaScript functions for handling owner actions -->
+    <script>
+        function editBooking() {
+            // Implement functionality to edit booking details
+            alert("Edit booking functionality will be implemented here.");
+        }
+
+        function deleteBooking() {
+            // Implement functionality to delete booking
+            alert("Delete booking functionality will be implemented here.");
+        }
+
+        function changePrice(roomType) {
+            // Implement functionality to change room price
+            alert("Change price for " + roomType + " room functionality will be implemented here.");
+        }
+    </script>
+</body>
+</html>
+

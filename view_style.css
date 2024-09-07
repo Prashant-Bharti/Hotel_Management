@@ -1,0 +1,31 @@
+
+ 
+ 
+
+     /* Style for the button */
+     .redirect-button {
+         padding: 10px 20px;
+         background-color: #17898d;
+         color: #fff;
+         text-align: center;
+         font-size: 16px;
+         cursor: pointer;
+         border-radius: 5px;
+         transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+         border: 2px solid transparent;
+         display: inline-block;
+         text-decoration: none;
+     }
+
+     /* Hover effect */
+     .redirect-button:hover {
+         background-color: #6df3f3;
+         border-color: #3ad6bc;
+     }
+
+     /* Active effect */
+     .redirect-button:active {
+         background-color: #81f1e2;
+         border-color: #177fee;
+         color: #fff;
+     }

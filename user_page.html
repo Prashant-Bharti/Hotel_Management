@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Page</title>
+</head>
+<body>
+    <h2>User Profile</h2>
+    <div>
+        <h3>Profile Information</h3>
+        <p>Name: John Doe</p>
+        <p>Sex: Male</p>
+        <p>Age: 30</p>
+        <p>Origin Address: 123 Main St, City, Country</p>
+        <p>No. of Rooms Booked: 2</p>
+        <p>Room IDs: Room1, Room2</p>
+        <button onclick="editProfile()">Edit Profile</button>
+        <button onclick="deleteBooking()">Delete Booking</button>
+    </div>
+
+    <h2>Available Rooms</h2>
+    <div>
+        <h3>Room Types</h3>
+        <ul>
+            <li>Small Room - Price: $100/night (3 available) <button onclick="addBooking('small')">Book</button></li>
+            <li>Medium Room - Price: $150/night (5 available) <button onclick="addBooking('medium')">Book</button></li>
+            <li>Large Room - Price: $200/night (2 available) <button onclick="addBooking('large')">Book</button></li>
+        </ul>
+    </div>
+
+    <!-- JavaScript functions for handling user actions -->
+    <script>
+        function editProfile() {
+            // Implement functionality to edit user profile
+            alert("Edit profile functionality will be implemented here.");
+        }
+
+        function deleteBooking() {
+            // Implement functionality to delete booking
+            alert("Delete booking functionality will be implemented here.");
+        }
+
+        function addBooking(roomType) {
+            // Implement functionality to add booking for the selected room type
+            alert("Add booking for " + roomType + " room functionality will be implemented here.");
+        }
+    </script>
+</body>
+</html>
